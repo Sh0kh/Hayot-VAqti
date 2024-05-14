@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+body{
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+.Modal-start{
+    background-color: black;
+    position: fixed;
+    z-index: 20;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    transform: translateX(0);
+    overflow-y: auto;
+	transition: all 1s ease;
+}
+
+h1{
+    color: white;
+    font-size: 55px;
+
+}
+.element{
+    margin-top: 70px;
+    
+}
+.element div{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+span{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.container{
+    width: 425px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    overflow-y: auto;
+	transition: all 1s ease;
+
+    transform: translateX(300%) ;
+}
+.container2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+.Modal-start img{
+    width: 70%;
+}
+.start{
+    transform: translateX(0) !important;
+}
+.start2{
+    transform: translateX(-300%) !important;
+}
