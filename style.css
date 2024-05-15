@@ -80,3 +80,46 @@ span{
 .start2{
     transform: translateX(-300%) !important;
 }
+.modal{
+    position: fixed;
+    top: 40%;
+    left: 5%;
+    background-color: black;
+    padding: 20px;
+    z-index: 10000;
+}
+.modal h2{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.grid{
+    gap: 20px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.grid button{
+    padding: 10px 20px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.dn{
+    display: none;
+}
+.bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    z-index: 1000;
+}
+img{
+    display: block;
+}
